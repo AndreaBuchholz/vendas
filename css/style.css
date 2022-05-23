@@ -18,8 +18,7 @@
 html,body{
 	height: 100%;
 }
-
-/**Header do site**/
+/*/**Header do site**/
 
 header{
 	padding:20px 2%;
@@ -27,7 +26,7 @@ header{
 
 header .logo img{
 	float: left;
-	width: 236px;
+	width: 150px;
 }
 
 nav.menu-mobile{
@@ -119,9 +118,10 @@ section.servicos > .container{
 
 section.servicos > .container .box-servico{
 	background-image: url('../imagens/icone_conectado.jpeg');
-	background-size: 18px 18px;
+	background-size: 16px 16px;
 	background-position: center calc(100% - 10px);
 	background-repeat: no-repeat;
+
 }
 
 section.servicos > .container .box-servico h2{
@@ -286,9 +286,10 @@ section.depoimentos .depoimento-single{
 }
 
 .nome-depoimento img{
-	width: 32px;
-	height: 32px;
-	border-radius: 16px;
+	width: 26px;
+	height: 26px;
+	border-radius: 8px;
+	opacity: 60%;
 }
 
 .nome-depoimento span{
